@@ -3,7 +3,7 @@ title: "Centeva Book Report: Creativity Inc. — Overcoming the unseen forces th
 date: "2017-09-27"
 path: "/blog/book-report-overcoming-unseen-forces"
 author: "Wesley Meacham"
-avatar: "./images/wes.png"
+avatar: "../images/wes.png"
 ---
 
 _by Ed Catmull and Amy Wallace_

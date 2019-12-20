@@ -3,7 +3,7 @@ title: "Centeva Book Report: Hooked — how to build habit-forming products"
 date: "2017-09-27"
 path: "/blog/book-report-habit-forming-products"
 author: "Blake Kohler"
-avatar: "./images/blake.jpg"
+avatar: "../images/blake.jpg"
 ---
 
 by NIR EYAL and RYAN HOOVER

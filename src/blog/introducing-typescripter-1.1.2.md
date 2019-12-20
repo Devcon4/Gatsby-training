@@ -3,7 +3,7 @@ title: "Introducing TypeScripter v1.1.2"
 date: "2016-11-29"
 path: "/blog/introducing-typescripter-1-1-2"
 author: "Andrew Hancey"
-avatar: "./images/andrew.png"
+avatar: "../images/andrew.png"
 ---
 
 Today I’m excited to announce the latest version of our TypeScripter command line tool. As we at Centeva Labs have developed our products, we have found that TypeScripter has a very crucial role to play in the process.

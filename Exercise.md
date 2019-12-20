@@ -65,11 +65,18 @@ Install the `gatsby-transformer-remark` plugin that is used to convert markdown 
 npm i --save gatsby-transformer-remark
 ```
 
-Add the transformer to the `gatsby-config.js` file.
+Add the transformer to the `gatsby-config.js` file. The `gatsby-transformer-remark` plugin doesn't actually find and load new files, it depends on files being sourced by another plugin. In this case we will use the `gatsby-source-filesystem` plugin to load the files then transform them with `gatsby-transformer-remark`.
 
 ```js
 plugins: [
   ...,
+  {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/blog`,
+      },
+    },
   `gatsby-transformer-remark`,
 ]
 ```
