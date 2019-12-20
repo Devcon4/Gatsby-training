@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => (
   <div className={style.content}>
     <SEO title="Centeva Blog" />
-    <h1 className={style.header}>Centeva Blog</h1>
+    <h1 style={{width: "120px", }} className={style.header}>Centeva Blog</h1>
     {data.allMarkdownRemark.edges.map(({node}) => (
       <div className={style.blogcard} key={node.id}>
         <Img className={style.image} fluid={node.frontmatter.avatar.childImageSharp.fluid} />

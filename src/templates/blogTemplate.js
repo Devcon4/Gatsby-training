@@ -8,7 +8,7 @@ export default function BlogTemplate({ data}) {
     const { frontmatter, html } = markdownRemark;
 
     return (
-        <article className={style.blog}>
+        <article>
             <h1>{frontmatter.title}</h1>
             <Img fluid={frontmatter.avatar.childImageSharp.fluid} />
             <h2>{frontmatter.data}</h2>
